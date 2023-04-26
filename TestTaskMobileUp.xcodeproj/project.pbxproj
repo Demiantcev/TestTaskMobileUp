@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3A8F21C9EB731776F755D1C /* Pods_TestTaskMobileUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D314B5B34D929065E6F11865 /* Pods_TestTaskMobileUp.framework */; };
 		EBB5EA1D29F5BAA500452D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA1C29F5BAA500452D31 /* AppDelegate.swift */; };
 		EBB5EA1F29F5BAA500452D31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA1E29F5BAA500452D31 /* SceneDelegate.swift */; };
-		EBB5EA2129F5BAA500452D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA2029F5BAA500452D31 /* ViewController.swift */; };
-		EBB5EA2429F5BAA500452D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB5EA2229F5BAA500452D31 /* Main.storyboard */; };
 		EBB5EA2629F5BAA700452D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB5EA2529F5BAA700452D31 /* Assets.xcassets */; };
 		EBB5EA2929F5BAA700452D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB5EA2729F5BAA700452D31 /* LaunchScreen.storyboard */; };
+		EBB5EA3129F5BC6400452D31 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA3029F5BC6400452D31 /* AuthService.swift */; };
+		EBB5EA3329F5BCAD00452D31 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA3229F5BCAD00452D31 /* LoginController.swift */; };
+		EBB5EA3729F5BFF500452D31 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA3629F5BFF500452D31 /* Network.swift */; };
+		EBB5EA3929F5C00F00452D31 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA3829F5C00F00452D31 /* API.swift */; };
+		EBB5EA3D29F5C04600452D31 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5EA3C29F5C04600452D31 /* Model.swift */; };
+		EBC75EE229F96861007D078A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EE129F96861007D078A /* LoginView.swift */; };
+		EBC75EE629F96C5B007D078A /* GetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EE529F96C5B007D078A /* GetModel.swift */; };
+		EBC75EE829F96E56007D078A /* MainPhotosGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EE729F96E56007D078A /* MainPhotosGalleryViewController.swift */; };
+		EBC75EEA29F96F10007D078A /* DataPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EE929F96F10007D078A /* DataPhoto.swift */; };
+		EBC75EEC29F9763F007D078A /* DetailPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EEB29F9763F007D078A /* DetailPhotoViewController.swift */; };
+		EBC75EEE29F9773F007D078A /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EED29F9773F007D078A /* MyImageView.swift */; };
+		EBC75EF029F979A9007D078A /* MyImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC75EEF29F979A9007D078A /* MyImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		659FA2C0FC3229E00D520324 /* Pods-TestTaskMobileUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskMobileUp.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskMobileUp/Pods-TestTaskMobileUp.debug.xcconfig"; sourceTree = "<group>"; };
+		6DEBF35E6F2C01293B997E7E /* Pods-TestTaskMobileUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskMobileUp.release.xcconfig"; path = "Target Support Files/Pods-TestTaskMobileUp/Pods-TestTaskMobileUp.release.xcconfig"; sourceTree = "<group>"; };
+		D314B5B34D929065E6F11865 /* Pods_TestTaskMobileUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskMobileUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB5EA1929F5BAA500452D31 /* TestTaskMobileUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskMobileUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB5EA1C29F5BAA500452D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBB5EA1E29F5BAA500452D31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBB5EA2029F5BAA500452D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBB5EA2329F5BAA500452D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBB5EA2529F5BAA700452D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBB5EA2829F5BAA700452D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBB5EA2A29F5BAA700452D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB5EA3029F5BC6400452D31 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EBB5EA3229F5BCAD00452D31 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EBB5EA3629F5BFF500452D31 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EBB5EA3829F5C00F00452D31 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EBB5EA3C29F5C04600452D31 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EBC75EE129F96861007D078A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EBC75EE529F96C5B007D078A /* GetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetModel.swift; sourceTree = "<group>"; };
+		EBC75EE729F96E56007D078A /* MainPhotosGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPhotosGalleryViewController.swift; sourceTree = "<group>"; };
+		EBC75EE929F96F10007D078A /* DataPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPhoto.swift; sourceTree = "<group>"; };
+		EBC75EEB29F9763F007D078A /* DetailPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoViewController.swift; sourceTree = "<group>"; };
+		EBC75EED29F9773F007D078A /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		EBC75EEF29F979A9007D078A /* MyImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A8F21C9EB731776F755D1C /* Pods_TestTaskMobileUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		349693D19C9FA850A5F3AFE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659FA2C0FC3229E00D520324 /* Pods-TestTaskMobileUp.debug.xcconfig */,
+				6DEBF35E6F2C01293B997E7E /* Pods-TestTaskMobileUp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68ECA0B66EFAD9EBCB620EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D314B5B34D929065E6F11865 /* Pods_TestTaskMobileUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBB5EA1029F5BAA500452D31 = {
 			isa = PBXGroup;
 			children = (
 				EBB5EA1B29F5BAA500452D31 /* TestTaskMobileUp */,
 				EBB5EA1A29F5BAA500452D31 /* Products */,
+				349693D19C9FA850A5F3AFE0 /* Pods */,
+				68ECA0B66EFAD9EBCB620EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +102,55 @@
 			children = (
 				EBB5EA1C29F5BAA500452D31 /* AppDelegate.swift */,
 				EBB5EA1E29F5BAA500452D31 /* SceneDelegate.swift */,
-				EBB5EA2029F5BAA500452D31 /* ViewController.swift */,
-				EBB5EA2229F5BAA500452D31 /* Main.storyboard */,
+				EBB5EA3E29F5C04900452D31 /* Model */,
+				EBB5EA3529F5BFD900452D31 /* Service */,
+				EBC75EE329F96BE3007D078A /* View */,
+				EBC75EE429F96C0B007D078A /* Controllers */,
 				EBB5EA2529F5BAA700452D31 /* Assets.xcassets */,
 				EBB5EA2729F5BAA700452D31 /* LaunchScreen.storyboard */,
 				EBB5EA2A29F5BAA700452D31 /* Info.plist */,
 			);
 			path = TestTaskMobileUp;
+			sourceTree = "<group>";
+		};
+		EBB5EA3529F5BFD900452D31 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EBB5EA3029F5BC6400452D31 /* AuthService.swift */,
+				EBB5EA3629F5BFF500452D31 /* Network.swift */,
+				EBB5EA3829F5C00F00452D31 /* API.swift */,
+				EBC75EE929F96F10007D078A /* DataPhoto.swift */,
+				EBC75EED29F9773F007D078A /* MyImageView.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EBB5EA3E29F5C04900452D31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBB5EA3C29F5C04600452D31 /* Model.swift */,
+				EBC75EE529F96C5B007D078A /* GetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBC75EE329F96BE3007D078A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBC75EE129F96861007D078A /* LoginView.swift */,
+				EBC75EEF29F979A9007D078A /* MyImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBC75EE429F96C0B007D078A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBB5EA3229F5BCAD00452D31 /* LoginController.swift */,
+				EBC75EE729F96E56007D078A /* MainPhotosGalleryViewController.swift */,
+				EBC75EEB29F9763F007D078A /* DetailPhotoViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBB5EA2D29F5BAA700452D31 /* Build configuration list for PBXNativeTarget "TestTaskMobileUp" */;
 			buildPhases = (
+				57F58374E78CF586809708C9 /* [CP] Check Pods Manifest.lock */,
 				EBB5EA1529F5BAA500452D31 /* Sources */,
 				EBB5EA1629F5BAA500452D31 /* Frameworks */,
 				EBB5EA1729F5BAA500452D31 /* Resources */,
+				D169CE1F3032F72764C627FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +215,78 @@
 			files = (
 				EBB5EA2929F5BAA700452D31 /* LaunchScreen.storyboard in Resources */,
 				EBB5EA2629F5BAA700452D31 /* Assets.xcassets in Resources */,
-				EBB5EA2429F5BAA500452D31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F58374E78CF586809708C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTaskMobileUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D169CE1F3032F72764C627FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskMobileUp/Pods-TestTaskMobileUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskMobileUp/Pods-TestTaskMobileUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskMobileUp/Pods-TestTaskMobileUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBB5EA1529F5BAA500452D31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB5EA2129F5BAA500452D31 /* ViewController.swift in Sources */,
+				EBB5EA3729F5BFF500452D31 /* Network.swift in Sources */,
+				EBC75EE229F96861007D078A /* LoginView.swift in Sources */,
+				EBC75EEA29F96F10007D078A /* DataPhoto.swift in Sources */,
 				EBB5EA1D29F5BAA500452D31 /* AppDelegate.swift in Sources */,
+				EBC75EEC29F9763F007D078A /* DetailPhotoViewController.swift in Sources */,
 				EBB5EA1F29F5BAA500452D31 /* SceneDelegate.swift in Sources */,
+				EBC75EF029F979A9007D078A /* MyImageCollectionViewCell.swift in Sources */,
+				EBC75EEE29F9773F007D078A /* MyImageView.swift in Sources */,
+				EBC75EE829F96E56007D078A /* MainPhotosGalleryViewController.swift in Sources */,
+				EBC75EE629F96C5B007D078A /* GetModel.swift in Sources */,
+				EBB5EA3129F5BC6400452D31 /* AuthService.swift in Sources */,
+				EBB5EA3929F5C00F00452D31 /* API.swift in Sources */,
+				EBB5EA3329F5BCAD00452D31 /* LoginController.swift in Sources */,
+				EBB5EA3D29F5C04600452D31 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBB5EA2229F5BAA500452D31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBB5EA2329F5BAA500452D31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EBB5EA2729F5BAA700452D31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		EBB5EA2E29F5BAA700452D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659FA2C0FC3229E00D520324 /* Pods-TestTaskMobileUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +425,6 @@
 				INFOPLIST_FILE = TestTaskMobileUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +442,7 @@
 		};
 		EBB5EA2F29F5BAA700452D31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEBF35E6F2C01293B997E7E /* Pods-TestTaskMobileUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +453,6 @@
 				INFOPLIST_FILE = TestTaskMobileUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

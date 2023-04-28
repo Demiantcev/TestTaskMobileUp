@@ -21,7 +21,7 @@ class NetworkService: Networking {
     
     func request(completion: @escaping ([GetModel]) -> Void) {
         guard let token = authService.token else { return }
-        let params = ["owner_id" : "-128666765", "album_id" : "266276915"]
+        let params = ["owner_id" : "-128666765", "album_id" : "266310117"]
         var allParams = params
         allParams["access_token"] = token
         allParams["v"] = API.version
